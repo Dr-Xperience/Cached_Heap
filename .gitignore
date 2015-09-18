@@ -1,0 +1,7 @@
+# ignore generated .user files,
+bin
+obj
+*.depend
+*.layout
+# except foo.user which is maintained by hand
+!foo.user
