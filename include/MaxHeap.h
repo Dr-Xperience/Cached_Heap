@@ -25,7 +25,7 @@
 #include <iostream>
 #include <stack>
 
-template <class T, class S = long long>
+template <class T, class S = unsigned long long>
 class MaxHeap : public Heap<T,S>
 {
     public:

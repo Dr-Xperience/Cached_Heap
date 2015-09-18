@@ -22,7 +22,7 @@
 
 #include <list>
 #include <iostream>
-template <class T,class S=long long>
+template <class T,class S= unsigned long long>
 class Heap
 {
     public:

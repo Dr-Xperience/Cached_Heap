@@ -44,6 +44,7 @@ Heap<T,S>::Node::Node(long long index,T value, S compareValue)
 {
 mLeft_Child=NULL;
 mRight_Child=NULL;
+this->mParent=nullptr;
 this->mIndex=index;
 this->mValue=value;
 this->mCompareValue=compareValue;
